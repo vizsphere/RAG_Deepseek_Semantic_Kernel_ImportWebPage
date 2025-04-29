@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/RAG_Deepseek_Semantic_Kernel_ImportWebPage/bin/Debug/net9.0
+/RAG_Deepseek_Semantic_Kernel_ImportWebPage/obj
+/.vs/RAG_Deepseek_Semantic_Kernel_ImportWebPage
+/.vs/ProjectEvaluation
+/RAG_Deepseek_Semantic_Kernel_ImportWebPage/Links.txt
+/RAG_Deepseek_Semantic_Kernel_ImportWebPage/questions.txt
