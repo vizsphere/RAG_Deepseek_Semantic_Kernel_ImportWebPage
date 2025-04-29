@@ -1,2 +1,52 @@
 # RAG_Deepseek_Semantic_Kernel_ImportWebPage
 RAG_Deepseek_Semantic_Kernel_ImportWebPage
+
+
+## This repository showcase the RAG using DeepSeek and semantic kernel 
+
+## 1. Install ollama on windows https://ollama.com/download 
+
+## 2. Pull & run DeepSeek LLM locally on ollama platform 
+
+``` ollama run deepseek-r1:1.5b ```
+
+``` ollama list ```
+
+## 3. Setup/Create Deep Seek API Account 
+You need to set up an account in Deep Seek and create an API key from here. https://platform.deepseek.com/api_keys 
+
+## 4. Deploy Kernel Memory on docker as service
+
+Kernel Memory can be deployed as a Docker service for handling thousands of documents at scale, or embedded directly using the MemoryServerless class for smaller applications. This flexibility adapts to various Microsoft development scenarios from enterprise to lightweight implementations.
+
+``` docker run -e OPENAI_API_KEY="YOUR_DEEPSEEK_API_KEY" -p 9001:9001 -it --rm kernelmemory/service ```
+
+![alt text](image.png)
+
+
+## Questions
+
+
+### Document source 1
+
+What is Microsoft 365 Education?
+
+What is the difference between Office 365 and Microsoft 365 Education?
+
+Where can I learn more about Windows 11 Education?
+
+
+### Document source 2 
+
+
+Which type of web development services do you offer?
+
+How do your .NET backend solutions support my business growth?
+
+What languages and technologies do you work with?
+
+
+![alt text](Question.png)
+
+
+![alt text](KM-memory-in-docker.png)
