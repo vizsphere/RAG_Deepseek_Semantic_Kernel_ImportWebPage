@@ -1,8 +1,4 @@
-# RAG_Deepseek_Semantic_Kernel_ImportWebPage
-RAG_Deepseek_Semantic_Kernel_ImportWebPage
-
-
-## This repository showcase the RAG using DeepSeek and semantic kernel 
+# RAG using DeepSeek R1, Ollama & Semantic Kernel .NET
 
 ## 1. Install ollama on windows https://ollama.com/download 
 
