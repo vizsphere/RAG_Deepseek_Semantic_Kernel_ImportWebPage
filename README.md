@@ -13,7 +13,7 @@ You need to set up an account in Deep Seek and create an API key from here. http
 
 ## 4. Deploy Kernel Memory on docker as service
 
-Kernel Memory can be deployed as a Docker service for handling thousands of documents at scale, or embedded directly using the MemoryServerless class for smaller applications. This flexibility adapts to various Microsoft development scenarios from enterprise to lightweight implementations.
+You also need to install the Kernel Memory on Docker as a service, which will serve as a dataset indexing platform 
 
 ``` docker run -e OPENAI_API_KEY="YOUR_DEEPSEEK_API_KEY" -p 9001:9001 -it --rm kernelmemory/service ```
 
