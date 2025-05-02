@@ -14,7 +14,9 @@ You need to set up an account in Deep Seek and create an API key from here. http
 ## 4. Deploy Kernel Memory on docker as service
 
 You will need to install the Kernel Memory service on Docker, as it will effectively serve as your dataset indexing platform.
-``` docker run -e OPENAI_API_KEY="YOUR_DEEPSEEK_API_KEY" -p 9001:9001 -it --rm kernelmemory/service ```
+
+
+```  docker run -e OPENAI_API_KEY="YOUR_DEEPSEEK_API_KEY" -p 9001:9001 -it --rm kernelmemory/service  ```
 
 ![alt text](image.png)
 
